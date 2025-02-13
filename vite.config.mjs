@@ -4,7 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  base: "/jmusone.github.io/dist",
+  base: "/",
   test: {
     globals: true,
     environment: 'jsdom',
